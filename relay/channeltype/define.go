@@ -31,6 +31,7 @@ const (
 	Minimax
 	Mistral
 	Groq
+	Grok
 	Ollama
 	LingYiWanWu
 	StepFun

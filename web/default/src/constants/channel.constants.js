@@ -18,6 +18,7 @@ export const CHANNEL_OPTIONS = [
     { key: 26, text: '百川大模型', value: 26, color: 'orange' },
     { key: 27, text: 'MiniMax', value: 27, color: 'red' },
     { key: 29, text: 'Groq', value: 29, color: 'orange' },
+    { key: 45, text: 'Grok', value: 45, color: 'purple' },
     { key: 30, text: 'Ollama', value: 30, color: 'black' },
     { key: 31, text: '零一万物', value: 31, color: 'green' },
     { key: 32, text: '阶跃星辰', value: 32, color: 'blue' },

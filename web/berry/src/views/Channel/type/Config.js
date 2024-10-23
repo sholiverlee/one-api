@@ -152,6 +152,9 @@ const typeConfig = {
   29: {
     modelGroup: 'groq'
   },
+  45: {
+    modelGroup: 'grok'
+  },
   30: {
     modelGroup: 'ollama'
   },

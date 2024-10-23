@@ -18,6 +18,7 @@ export const CHANNEL_OPTIONS = [
   { key: 26, text: '百川大模型', value: 26, color: 'orange' },
   { key: 27, text: 'MiniMax', value: 27, color: 'red' },
   { key: 29, text: 'Groq', value: 29, color: 'orange' },
+  { key: 45, text: 'Grok', value: 45, color: 'purple' },
   { key: 30, text: 'Ollama', value: 30, color: 'black' },
   { key: 31, text: '零一万物', value: 31, color: 'green' },
   { key: 32, text: '阶跃星辰', value: 32, color: 'blue' },
@@ -42,7 +43,8 @@ export const CHANNEL_OPTIONS = [
   { key: 6, text: '代理：OpenAI Max', value: 6, color: 'violet' },
   { key: 9, text: '代理：AI.LS', value: 9, color: 'yellow' },
   { key: 12, text: '代理：API2GPT', value: 12, color: 'blue' },
-  { key: 13, text: '代理：AIGC2D', value: 13, color: 'purple' }
+  { key: 13, text: '代理：AIGC2D', value: 13, color: 'purple' },
+ 
 ];
 
 for (let i = 0; i < CHANNEL_OPTIONS.length; i++) {

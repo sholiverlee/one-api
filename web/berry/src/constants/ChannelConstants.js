@@ -113,6 +113,7 @@ export const CHANNEL_OPTIONS = {
     value: 29,
     color: 'primary'
   },
+  45: { key: 45, text: 'Grok', value: 45, color: 'purple' },
   30: {
     key: 30,
     text: 'Ollama',

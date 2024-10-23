@@ -200,6 +200,9 @@ var ModelRatio = map[string]float64{
 	"deepl-zh": 25.0 / 1000 * USD,
 	"deepl-en": 25.0 / 1000 * USD,
 	"deepl-ja": 25.0 / 1000 * USD,
+
+	// https://console.x.ai/team/d7e02b8e-e979-4355-9431-7af17cca223a/model
+	"grok-beta": 1 ,   // Beta test
 }
 
 var CompletionRatio = map[string]float64{
@@ -350,6 +353,9 @@ func GetCompletionRatio(name string, channelType int) float64 {
 	}
 	if strings.HasPrefix(name, "deepseek-") {
 		return 2
+	}
+	if strings.HasPrefix(name, "grok-") {
+		return 3
 	}
 	switch name {
 	case "llama2-70b-4096":
